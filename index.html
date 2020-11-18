@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Nashville Software School</title>
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+                <!-- logo goes here -->
+            </div>
+            <h1 class="header">
+                <!-- Name -->
+            </h1>
+            <form action=""> 
+            <fieldset>
+                <label for="mood">
+                    Mood of the day
+                </label>
+                <select name="mood" id="mood">
+                    <option value="Happy">Happy</option>
+                    <option value="Sad">Sad</option>
+                    <option value="Angry">Angry</option>
+                    <option value="Anxious">Anxious</option>
+                    <option value="Afraid">Afraid</option>
+                </select>
+            </fieldset>    
+            </form>
+        </header>
+            <main class="container">
+                <article class="date-journalDate">
+                    <section>
+                        <form action="">
+                            <fieldset>
+                                <label for="journalDate"> 
+                                    Date of entry
+                                </label>
+                                <input type="date" name="journalDate" id="journalDate">
+                            </fieldset> 
+                        </form>
+                    </section>
+                </article>
+                <article class="text-concept">
+                    <section>
+                        <form action="">
+                            <fieldset>
+                                <label for="concepts">
+                                    Concepts Covered
+                                </label>
+                                <input type="text" name="concepts" id="concept">
+                            </fieldset>
+                        </form>
+                    </section>
+                </article>
+                <article class="text-journalEntry">
+                    <section>
+                        <form action="">
+                            <fieldset>
+                                <label for="journalEntry">
+                                    Journal Entry
+                                </label>
+                            <textarea name="journalEntry" id="journalEntry" cols="30" rows="10"></textarea> 
+                            </fieldset>
+                        </form>
+                    </section>
+                </article>
+                <article>
+                    <section>
+                        <button type="button">
+                            Record Journal Entry
+                        </button>
+                    </section>
+                </article>
+            </main>
+            
+            <script type="module" src="./scripts/main.js"></script>
+            <footer class="footer__copyright_info">
+                <small>&copy; Copyright 2020, Tim Curtis/<a href="https://github.com/tcurtis97">tcurtis97@Github</a></small>
+            </footer>
+        </body>
+        </html>
+        

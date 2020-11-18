@@ -1,0 +1,13 @@
+.footer__copyright_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: gainsboro;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
