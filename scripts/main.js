@@ -1,3 +1,5 @@
 import { useJournalEntries } from "./JournalDataProvider.js"
+import { EntryListComponent } from "./JournalEntry.js"
 
-useJournalEntries()
+EntryListComponent()
+// useJournalEntries()

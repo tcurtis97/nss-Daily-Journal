@@ -1,5 +1,15 @@
 .logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 500px;
     margin-bottom: -7em;
     margin-top: -5em;
+    
+}
+
+.logo-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
