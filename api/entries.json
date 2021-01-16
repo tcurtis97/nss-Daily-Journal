@@ -1,0 +1,47 @@
+{
+    "entries": [
+        {
+            "id": 1,
+            "date": "07/24/2025",
+            "concept": "HTML & CSS",
+            "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
+            "moodId": "1"
+        },
+        {
+            "id": 2,
+            "date": "07/28/2025",
+            "concept": "HTML & CSS",
+            "entry": "We did our first group project and it was a success.",
+            "moodId": "2" 
+        },
+        {
+            "id": 3,
+            "date": "08/3/2025",
+            "concept": "Javascript",
+            "entry": "We started javascript and everything is going okay. JS is a lot harder than html & css and its hurts my brain.",
+            "moodId": "3" 
+        }
+    ],
+    "moods": [
+        {
+            "id": 1,
+            "label": "Ok"
+        },
+        {
+            "id": 2,
+            "label": "Happy"
+        },
+        {
+            "id": 3,
+            "label": "Sad"
+        },
+        {
+            "id": 4,
+            "label": "Angry"
+        },
+        {
+            "id": 5,
+            "label": "Afraid"
+        },
+    ]
+}
